@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #F0EDE4;
+    color: #353935;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C0C0C2;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+h1{
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+nav > ul{
+    list-style: none;
+    margin: 20px;
+    justify-content: flex-end;
+}
+
+nav ul > li{
+    display: inline;
+    margin-left:30px;
+    text-decoration: none;
+}
+
+nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 50px;
+}
+
+.head-note{
+    text-align: center;
+}
+
+main{
+    width: 900px;
+    margin: 25px auto;
+}
+
+input[type="email"]{
+    width: 300px;
+    padding: 6px;
+}
+
+input[type="submit"], button{
+    padding: 8px;
+    background-color: rgb(235, 193, 9);
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+.fa-envelope{
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    font-size: 40px;
+}
+
+.fa-solid{
+    position: relative;
+    top: 15%;
+    font-size: 25px;
+}
+
+.feature li{
+    margin: 30px;
+    list-style: none;
+}
+
+.prices ul, .vid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.prices ul li{
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+}
+
+iframe{
+    border-radius: 5px;
+}
+
+.price-card{
+    width:300px;
+    height:330px;
+    border-radius:5px;
+    border:1px solid black;
+    box-shadow: 10px 10px 3px #C0C0C2;
+}
+
+.price-card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.price-card h3{
+    font-size: 1.1em;
+    margin-top: 0;
+    padding: 15px;
+    background-color: #C0C0C2;
+}
+
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+footer{
+    padding:15px;
+    width: 100%;
+    position: absolute;
+    background-color: #C0C0C2;
+    left: 0;
+}
+
+.links a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover{
+    color: rgb(160, 62, 62);
+}
+
+footer p{
+    text-align: center;
+}
+
+@media only screen and (max-width:825px)
+{
+    main{
+        width: 65%;
+    } 
+
+    .prices ul, .vid{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 40px;   
+    }
+}
