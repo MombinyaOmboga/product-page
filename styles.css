@@ -22,6 +22,10 @@ header{
     left: 0;
 }
 
+img{
+    width: 10%;
+}
+
 h1{
     font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
     font-size: 2em;
@@ -45,7 +49,7 @@ nav a{
 }
 
 main{
-    padding-top: 50px;
+    padding-top: 70px;
 }
 
 .head-note{

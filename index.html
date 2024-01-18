@@ -11,13 +11,13 @@
     <title>product-landing-page</title>
 </head>
 <body>
-    <header>
-        <h1>Original Trombones</h1>
-        <nav>
+    <header id="header">
+        <h1><img src="/media/37676.png" alt="trumpet logo">Original Trombones</h1>
+        <nav id="nav-bar">
             <ul>
-                <li><a href="feature">Features</a></li>
-                <li><a href="how-it-works">How it works</a></li>
-                <li><a href="Pricing">Pricing</a></li>
+                <li><a href="#feature" class="nav-link">Features</a></li>
+                <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+                <li><a href="#Pricing" class="nav-link">Pricing</a></li>
             </ul>
         </nav>
     </header>
@@ -26,7 +26,7 @@
             <h2>
                 Handcrafted, homemade masterpieces
             </h2>
-            <form action="example.com">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
                 <label for="email" class="mail">
                     <i class="fa-regular fa-envelope"></i></i><input type="email" name="email" id="email" placeholder="Enter your email address!" id="email" >
                 </label>
@@ -35,7 +35,7 @@
                 </label>
             </form>
         </section>
-        <section class="feature" id="feature">
+        <section class="feature" id="feature" for="feature">
             <ul>
                <li><i class="fa-solid fa-fire-flame-curved" style="color: #ff7800;"></i>
                     <h3>Premium Materials</h3>
@@ -51,12 +51,12 @@
                 </li>
             </ul>
         </section>
-        <section class="vid">
+        <section class="vid" id="how-it-works" for="how-it-works">
             <div class="div">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="Roman Carnival Overture Op. 9 for Five Trombones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="pricing" id="Pricing">
+        <section class="pricing" id="Pricing" for="Pricing">
             <div class="prices">
                 <ul>
                     <li>
